@@ -1,0 +1,48 @@
+<h1>Savior</h1>
+<form (submit)="loadPrompt($event)">
+  <textarea [(ngModel)]="prompt" name="chat"></textarea>
+  <button>PLEASE </button>
+</form>
+
+
+
+<div [innerHTML]="result.replaceAll('- ', '<br/>-').replaceAll('\[0-9].', '\n - ')">
+
+</div>
+
+
+<!--
+Skin care routine for people with this charateristics:
+- gender: woman
+- race: caucasian
+- skin type: combination,
+- seasonal texture: dry during winter, oily on the tzone in summer
+- sensitivity: eczema prone, reaction prone
+- allergic to: soy, hazelnut, cashews
+
+
+choose products with no perfume, no soy, no vitamin c, prefer rice and one retinol product and make sure the skin barrier is kept intact and protected, double cleanse in the evening and try to keep it on a budget (about 300€)
+
+
+Hi savior! i'm looking for a summer time skincare.  I have a sensitive, combination skin. i have some oiliness on my chin, with occasional hormonal pimples. I need a day skincare routine with a gentle cleanser, a lightweight moisturizer and a spf 50+ sunscreen.
+Then i need a nightime routine with a gentle retinol serum, hyaluronic acid based moisturizer with vitamin e and a double cleanse.
+I also need some extremely gentle chemical exfoliators, to use once a month and some sheet masks to hydrate once a week.
+
+
+Can you please keep it under 250€?
+
+
+I need a summertime skincare.
+ Skin type: combination, sensitive, eczema prone
+Skin concern: oily t-zone, pimples on chin, hydration, anti-aging, skin barrier protection.
+
+I need a double cleanse, a night serum with retinol for sensitive skin, a lightweight mositrurizer and a night moisturizer with panthenol and vitamine e.
+Exfoliator with pre soaked pads, no direct acids.
+sheet masks to hydrate.
+No nuts.
+
+Under 250€, products available in italy both online and in store.
+
+
+
+ -->
