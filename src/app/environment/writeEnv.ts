@@ -6,7 +6,7 @@ const setEnv = () => {
   const targetPath = './src/app/environment/environment.ts';
   // Load node modules
   require('dotenv').config({
-    path: 'src/app/environment/.env',
+    path: '.env',
   });
   // `environment.ts` file structure
   const envConfigFile = `export const environment = {
